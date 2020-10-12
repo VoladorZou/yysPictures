@@ -26,7 +26,7 @@ def main():
         print(result)
         #保存图片
         fname = str(x)+'.jpg'
-        request.urlretrieve(result, './yysTest/'+fname)
+        request.urlretrieve(result, './Pictures/'+fname)
         x+=1
 
 if __name__ == "__main__":
